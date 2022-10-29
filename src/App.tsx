@@ -1,13 +1,15 @@
-import { css } from "@emotion/react";
+import styled from "@emotion/styled";
 
 export default function App () {
   return (
-    <div css={divCss}>
+    <Foo>
       Hello, World!
-    </div>
+    </Foo>
   );
 }
 
-const divCss = css`
-  border: 1px solid;
+const Foo = styled.div`
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
 `;
