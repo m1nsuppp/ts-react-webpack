@@ -10,6 +10,7 @@ module.exports = merge(common, {
     port: 3000,
     historyApiFallback: true,
     liveReload: true,
+    host: "0.0.0.0",
   },
   output: {
     filename: "[name].[contenthash].js",
