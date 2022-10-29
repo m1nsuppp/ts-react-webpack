@@ -7,6 +7,10 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "types": ["@emotion/react/types/css-prop"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
     "outDir": "./dist",
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
