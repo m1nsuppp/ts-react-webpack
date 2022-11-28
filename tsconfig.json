@@ -6,7 +6,6 @@
     "jsxImportSource": "@emotion/react",
     "module": "ESNext",
     "moduleResolution": "node",
-    "types": ["@emotion/react/types/css-prop"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
@@ -22,7 +21,15 @@
     "strictFunctionTypes": true,
     "alwaysStrict": true,
     "skipLibCheck": true,
-    "typeRoots": ["src/types"],
+    "types": [
+      "node",
+      "@emotion/react/types/css-prop"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types",
+    ],
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"],
 }
