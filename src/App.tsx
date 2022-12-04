@@ -1,15 +1,8 @@
-import styled from "@emotion/styled";
-
 export default function App () {
   return (
-    <Foo>
+    <div>
       Hello, World!
-    </Foo>
+      <h1>this is BOILERPLATE</h1>
+    </div>
   );
 }
-
-const Foo = styled.div`
-  width: 100px;
-  height: 100px;
-  border: 1px solid green;
-`;
