@@ -2,8 +2,7 @@
   "compilerOptions": {
     "target": "ES5",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react",
+    "jsx": "preserve",
     "module": "ESNext",
     "moduleResolution": "node",
     "baseUrl": ".",
